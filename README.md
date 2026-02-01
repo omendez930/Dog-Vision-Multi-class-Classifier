@@ -67,6 +67,7 @@ Example (Keras + ImageNetV2)
 
 ## 📂 Project Structure
 
+```
 dog-vision/
 │
 ├── data/
@@ -85,3 +86,4 @@ dog-vision/
 │
 ├── requirements.txt
 └── README.md
+```
