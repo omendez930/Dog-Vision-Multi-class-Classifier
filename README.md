@@ -1,9 +1,9 @@
 # Dog-Vision-Multi-class-Classifier
-🐶 ## Dog Vision: Multi‑Class Image Classification
+## 🐶 Dog Vision: Multi‑Class Image Classification
 An end‑to‑end machine learning project for classifying dog breeds using deep learning and computer vision.
 
 
-📌 ## Project Overview
+## 📌 Project Overview
 
 This project builds a multi‑class image classifier capable of identifying dog breeds from images. It follows a complete ML workflow—from data ingestion and preprocessing to model training, evaluation, and deployment‑ready outputs.
 The model leverages transfer learning with modern convolutional neural networks (CNNs) to achieve high accuracy even with limited training data.
@@ -15,7 +15,7 @@ The model leverages transfer learning with modern convolutional neural networks 
 * Any custom dataset with labeled dog images
 Each image should map to a breed label in a CSV or folder‑based structure.
 
-🚀 Model Training Workflow
+## 🚀 Model Training Workflow
 1. Load and preprocess data
 * Resize images (e.g., 224×224)
 * Normalize pixel values
@@ -38,7 +38,7 @@ Example (Keras + ImageNetV2)
 
 
 
-🧠 ## Key Features
+## 🧠 Key Features
 * Multi‑class classification (e.g., 120+ dog breeds)
 * Transfer learning using pretrained CNNs (EfficientNet, ResNet, MobileNet)
 * Data augmentation for improved generalization
@@ -47,7 +47,7 @@ Example (Keras + ImageNetV2)
 * Exportable model for inference (SavedModel / ONNX)
 
 
-🛠️ ## Python Libraries Used
+## 🛠️ Python Libraries Used
 ### Core ML & Deep Learning
 * TensorFlow / Keras – model building, training
 * PyTorch (optional alternative)
@@ -65,7 +65,7 @@ Example (Keras + ImageNetV2)
 
 
 
-📂 ## Project Structure
+## 📂 Project Structure
 
 dog-vision/
 │
