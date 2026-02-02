@@ -11,20 +11,23 @@ The model leverages transfer learning with modern convolutional neural networks 
 
 ## Dataset
 
-* Kaggle Dog Breed Identification Dataset
+* Kaggle Dog Breed Identification Dataset: https://www.kaggle.com/c/dog-breed-identification/overview
 * Any custom dataset with labeled dog images
 Each image should map to a breed label in a CSV or folder‑based structure.
 
 ## 🚀 Model Training Workflow
+
 1. Load and preprocess data
 * Resize images (e.g., 224×224)
 * Normalize pixel values
-* Apply augmentation (flip, rotate, zoom, color jitter)
+* Turning data in batches
 
 2. Build the model
-Example (Keras + ImageNetV2)
+* TensorFlow + Keras + ImageNetV2
+* From TensorFlow Hub - "https://kaggle.com/models/google/mobilenet-v2/TensorFlow2/130-224-classification/1"
 
-3. Train the model
+4. Train the model (TensorFlow)
+* Using a 1000 images at first
 * Use early stopping
 * Save best weights
 * Track accuracy/loss curves
