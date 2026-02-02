@@ -90,3 +90,6 @@ dog-vision/
 ├── requirements.txt
 └── README.md
 ```
+
+## Author
+Created by Orangel Mendez email:omendez30@gmail.com
