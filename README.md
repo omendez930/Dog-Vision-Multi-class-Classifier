@@ -66,6 +66,18 @@ Each image should map to a breed label in a CSV or folder‑based structure.
 * matplotlib – training curves
 
 
+### Getting Started
+Due to the size of the data, I decided to use google collab for a more fluid way of processing the data. We will by unzipping the file from your own google drive, 
+
+`Unzip the zip file from google drive`
+`!unzip "drive/MyDrive/Dog vision/dog-breed-identification.zip" -d "drive/MyDrive/Dog vision`
+
+We then continue by connecting google drive to colab. You can read/write files directly from your Drive (e.g., datasets, notebooks, scripts). A popup will ask you to authorize access to your Google account.
+After mounting, your Drive appears under /content/drive/MyDrive/. 
+
+`from google.colab import drive`
+`drive.mount('/content/drive')`
+
 
 
 ## 📂 Project Structure
