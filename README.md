@@ -69,26 +69,32 @@ Each image should map to a breed label in a CSV or folder‑based structure.
 ### Getting Started
 Due to the size of the data, I decided to use google collab for a more fluid way of processing the data. We will by unzipping the file from your own google drive, 
 
-`Unzip the zip file from google drive
-!unzip "drive/MyDrive/Dog vision/dog-breed-identification.zip" -d "drive/MyDrive/Dog vision`
+```
+Unzip the zip file from google drive
+!unzip "drive/MyDrive/Dog vision/dog-breed-identification.zip" -d "drive/MyDrive/Dog vision
+```
 
 We then continue by connecting google drive to colab. You can read/write files directly from your Drive (e.g., datasets, notebooks, scripts). A popup will ask you to authorize access to your Google account.
 After mounting, your Drive appears under /content/drive/MyDrive/. 
 
-`from google.colab import drive
-drive.mount('/content/drive')`
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
 
 Next we will setup TensorFlow and check to see if colab runtime has a GPU available by loading TensorFlow and TensorFlow Hub, pritning their versions and reporting if a GPU is detected.
 
-`import tensorflow as tf
+```
+import tensorflow as tf
 import tensorflow_hub as hub
 import tf_keras
 print("TF Version:", tf.__version__)
-print("TF Hub version:", hub.__version__)`
+print("TF Hub version:", hub.__version__)
 
 
-`# check got GPU availability
-print("GPU", "Available (YESSSS!)" if tf.config.list_physical_devices("GPU") else "Not available")`
+# check got GPU availability
+print("GPU", "Available (YESSSS!)" if tf.config.list_physical_devices("GPU") else "Not available")
+```
 
 
 
