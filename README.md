@@ -66,7 +66,7 @@ Each image should map to a breed label in a CSV or folder‑based structure.
 * matplotlib – training curves
 
 
-### Getting Started
+## Getting Started
 Due to the size of the data, I decided to use google collab for a more fluid way of processing the data. We will by unzipping the file from your own google drive, 
 
 ```
